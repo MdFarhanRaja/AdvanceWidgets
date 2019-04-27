@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AdvanceTextView">
+        <attr name="atv_cornerRadius" format="dimension" />
+        <attr name="atv_borderEnable" format="boolean" />
+        <attr name="atv_borderColor" format="color" />
+        <attr name="atv_borderWidth" format="dimension" />
+        <attr name="atv_backgroundColor" format="color" />
+        <attr name="atv_fontPath" format="string" />
+        <attr name="atv_customCornerRadius" format="boolean" />
+        <attr name="atv_topLeftCornerRadius" format="dimension" />
+        <attr name="atv_topRightCornerRadius" format="dimension" />
+        <attr name="atv_bottomLeftCornerRadius" format="dimension" />
+        <attr name="atv_bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AdvanceEditText">
+        <attr name="aet_backgroundColor" format="color"/>
+        <attr name="aet_cornerRadius" format="dimension"/>
+        <attr name="aet_borderColor" format="color"/>
+        <attr name="aet_borderWidth" format="dimension"/>
+        <attr name="aet_borderEnable" format="boolean"/>
+        <attr name="aet_fontPath" format="string"/>
+        <attr name="aet_customCornerRadius" format="boolean" />
+        <attr name="aet_topLeftCornerRadius" format="dimension" />
+        <attr name="aet_topRightCornerRadius" format="dimension" />
+        <attr name="aet_bottomLeftCornerRadius" format="dimension" />
+        <attr name="aet_bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AdvanceRelativeLayout">
+        <attr name="arl_backgroundColor" format="color"/>
+        <attr name="arl_cornerRadius" format="dimension"/>
+        <attr name="arl_borderColor" format="color"/>
+        <attr name="arl_borderWidth" format="dimension"/>
+        <attr name="arl_borderEnable" format="boolean"/>
+        <attr name="arl_customCornerRadius" format="boolean" />
+        <attr name="arl_topLeftCornerRadius" format="dimension" />
+        <attr name="arl_topRightCornerRadius" format="dimension" />
+        <attr name="arl_bottomLeftCornerRadius" format="dimension" />
+        <attr name="arl_bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AdvanceLinearLayout">
+        <attr name="all_backgroundColor" format="color"/>
+        <attr name="all_cornerRadius" format="dimension"/>
+        <attr name="all_borderColor" format="color"/>
+        <attr name="all_borderWidth" format="dimension"/>
+        <attr name="all_borderEnable" format="boolean"/>
+        <attr name="all_customCornerRadius" format="boolean" />
+        <attr name="all_topLeftCornerRadius" format="dimension" />
+        <attr name="all_topRightCornerRadius" format="dimension" />
+        <attr name="all_bottomLeftCornerRadius" format="dimension" />
+        <attr name="all_bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AdvanceFrameLayout">
+        <attr name="afl_backgroundColor" format="color"/>
+        <attr name="afl_cornerRadius" format="dimension"/>
+        <attr name="afl_borderColor" format="color"/>
+        <attr name="afl_borderWidth" format="dimension"/>
+        <attr name="afl_borderEnable" format="boolean"/>
+        <attr name="afl_customCornerRadius" format="boolean" />
+        <attr name="afl_topLeftCornerRadius" format="dimension" />
+        <attr name="afl_topRightCornerRadius" format="dimension" />
+        <attr name="afl_bottomLeftCornerRadius" format="dimension" />
+        <attr name="afl_bottomRightCornerRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>
