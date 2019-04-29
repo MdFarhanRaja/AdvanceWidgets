@@ -69,4 +69,21 @@
         <attr name="afl_bottomRightCornerRadius" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_border_width" format="dimension"/>
+        <attr name="riv_border_color" format="color"/>
+        <attr name="riv_border_overlay" format="boolean"/>
+        <attr name="riv_circle_background_color" format="color"/>
+        <attr name="riv_scale_type" format="enum">
+            <enum name="MATRIX" value="1"/>
+            <enum name="FIT_XY" value="2"/>
+            <enum name="FIT_START" value="3" />
+            <enum name="FIT_CENTER" value="4" />
+            <enum name="FIT_END" value="5"/>
+            <enum name="CENTER" value="6"/>
+            <enum name="CENTER_CROP" value="7" />
+            <enum name="CENTER_INSIDE" value="8" />
+        </attr>
+    </declare-styleable>
+
 </resources>
