@@ -68,7 +68,7 @@ Step 2. Add the dependency
 	
 All Attributes:
 
-        app:atv_cornerRadius=""
+        app:atv_cornerRadius=dimention
         app:atv_borderEnable=boolean
         app:atv_borderColor=color
         app:atv_borderWidth=dimention
@@ -126,7 +126,7 @@ All Attributes:
 	
 All Attributes:
 
-	app:aet_cornerRadius=""
+	app:aet_cornerRadius=dimention
 	app:aet_borderEnable=boolean
 	app:aet_borderColor=color
 	app:aet_borderWidth=dimention
