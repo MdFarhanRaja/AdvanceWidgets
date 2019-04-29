@@ -26,6 +26,8 @@ Step 2. Add the dependency
 
 # AdvanceTextView
 
+![Screenshot_20190429_130224](https://user-images.githubusercontent.com/18304656/56882714-0c875800-6a82-11e9-8f67-4b6037a17570.jpg)
+
     <com.farhan.widgets.AdvanceTextView
         android:layout_width="match_parent"
         android:layout_height="45dp"
