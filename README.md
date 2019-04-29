@@ -212,3 +212,16 @@ All Attributes:
         app:arl_topRightCornerRadius=dimention
         app:arl_bottomLeftCornerRadius=dimention
         app:arl_bottomRightCornerRadius=dimention
+	
+	
+# ZoomImageView
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/18304656/56883646-eadba000-6a84-11e9-8a82-56498b09efed.gif)
+
+    <com.farhan.widgets.ZoomImageView
+        android:src="@drawable/image_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+	
+You can load images using glide also....
+
