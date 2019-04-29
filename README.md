@@ -79,3 +79,18 @@ All Attributes:
         app:atv_topRightCornerRadius=dimention
         app:atv_bottomLeftCornerRadius=dimention
         app:atv_bottomRightCornerRadius=dimention
+
+
+# AdvanceEditText
+
+![Screenshot_20190429_130210](https://user-images.githubusercontent.com/18304656/56882851-80296500-6a82-11e9-9cf2-0ccf8a23120a.jpg)
+
+
+# AdvanceLinearLayout
+
+![Screenshot_20190429_130156](https://user-images.githubusercontent.com/18304656/56882849-7f90ce80-6a82-11e9-9628-f37686d7ca08.jpg)
+
+
+# AdvanceRalativeLayout
+
+![Screenshot_20190429_130141](https://user-images.githubusercontent.com/18304656/56882852-80296500-6a82-11e9-8757-e6dcae2b4221.jpg)
