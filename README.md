@@ -1,5 +1,5 @@
 # AdvanceWidgets
-Customized views like TextView, Edittext, Layouts,RoundImageView, Zoom ImageView etc.
+Customized views like TextView, Edittext, Layouts, RoundImageView, Zoom ImageView etc.
 
 How to
 To get a Git project into your build:
@@ -222,6 +222,17 @@ All Attributes:
         android:src="@drawable/image_"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+	
+# RoundImageView
+
+![Screenshot_20190429_135016](https://user-images.githubusercontent.com/18304656/56883990-fa0f1d80-6a85-11e9-8461-005b840c9c78.jpg)
+
+    <com.farhan.widgets.RoundImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image_"
+        app:riv_border_color="@color/colorPrimary"
+        app:riv_border_width="2dp" />
 	
 You can load images using any image loader libraries also....
 
