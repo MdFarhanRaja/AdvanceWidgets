@@ -165,6 +165,19 @@ All Attributes:
             android:text="Linear Layout" />
 
     </com.farhan.widgets.AdvanceLinearLayout>
+    
+All Attributes:
+
+        app:all_cornerRadius=dimention
+        app:all_borderEnable=boolean
+        app:all_borderColor=color
+        app:all_borderWidth=dimention
+        app:all_backgroundColor=color
+        app:all_customCornerRadius=boolean
+        app:all_topLeftCornerRadius=dimention
+        app:all_topRightCornerRadius=dimention
+        app:all_bottomLeftCornerRadius=dimention
+        app:all_bottomRightCornerRadius=dimention
 
 # AdvanceRalativeLayout
 
@@ -186,3 +199,16 @@ All Attributes:
             android:text="Relative Layout" />
 
     </com.farhan.widgets.AdvanceRelativeLayout>
+    
+ All Attributes:
+
+        app:arl_cornerRadius=dimention
+        app:arl_borderEnable=boolean
+        app:arl_borderColor=color
+        app:arl_borderWidth=dimention
+        app:arl_backgroundColor=color
+        app:arl_customCornerRadius=boolean
+        app:arl_topLeftCornerRadius=dimention
+        app:arl_topRightCornerRadius=dimention
+        app:arl_bottomLeftCornerRadius=dimention
+        app:arl_bottomRightCornerRadius=dimention
