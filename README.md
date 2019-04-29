@@ -216,7 +216,7 @@ All Attributes:
 	
 # ZoomImageView
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/18304656/56883646-eadba000-6a84-11e9-8a82-56498b09efed.gif)
+![ezgif com-resize](https://user-images.githubusercontent.com/18304656/56883791-57ef3580-6a85-11e9-8343-2126b2a3c570.gif)
 
     <com.farhan.widgets.ZoomImageView
         android:src="@drawable/image_"
