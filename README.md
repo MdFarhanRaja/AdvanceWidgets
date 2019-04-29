@@ -223,5 +223,5 @@ All Attributes:
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 	
-You can load images using glide also....
+You can load images using any image loader libraries also....
 
