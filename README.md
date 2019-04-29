@@ -1,5 +1,5 @@
 # AdvanceWidgets
-Customized views like TextView, Edittext, Layouts etc.
+Customized views like TextView, Edittext, Layouts,RoundImageView, Zoom ImageView etc.
 
 How to
 To get a Git project into your build:
