@@ -123,6 +123,20 @@ All Attributes:
         app:aet_customCornerRadius="true"
         app:aet_fontPath="good_times.ttf"
         app:aet_topLeftCornerRadius="50dp" />
+	
+All Attributes:
+
+	app:aet_cornerRadius=""
+	app:aet_borderEnable=boolean
+	app:aet_borderColor=color
+	app:aet_borderWidth=dimention
+	app:aet_backgroundColor=color
+	app:aet_fontPath=font path with extention
+	app:aet_customCornerRadius=boolean
+	app:aet_topLeftCornerRadius=dimention
+	app:aet_topRightCornerRadius=dimention
+	app:aet_bottomLeftCornerRadius=dimention
+	app:aet_bottomRightCornerRadius=dimention
 
 # AdvanceLinearLayout
 
