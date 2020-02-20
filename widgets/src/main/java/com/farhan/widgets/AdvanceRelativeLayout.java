@@ -39,12 +39,6 @@ public class AdvanceRelativeLayout extends RelativeLayout
         init(context,attrs);
     }
 
-/*    public AdvanceRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes)
-    {
-        super(context, attrs, defStyleAttr, defStyleRes);
-        init(context,attrs);
-    }*/
-
     private void init(Context context, AttributeSet attributeSet)
     {
         array=context.obtainStyledAttributes(attributeSet, R.styleable.AdvanceRelativeLayout);
@@ -80,5 +74,21 @@ public class AdvanceRelativeLayout extends RelativeLayout
     public void setBackgroundColor(int colorCode) {
         drawable.setColor(colorCode);
         setBackground(drawable);
+    }
+
+    public void setBorderColor(int colorCode) {
+        if(borderEnable)
+        {
+            drawable.setStroke((int) borderWidth,colorCode);
+            setBackground(drawable);
+        }
+    }
+
+    public void setBorderColor(int borderWidth,int colorCode) {
+        if(borderEnable)
+        {
+            drawable.setStroke(borderWidth,colorCode);
+            setBackground(drawable);
+        }
     }
 }

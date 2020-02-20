@@ -8,64 +8,20 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <com.farhan.widgets.AdvanceTextView
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        app:atv_borderColor="@color/colorAccent"
-        app:atv_borderEnable="true"
-        app:atv_borderWidth="2dp"
-        app:atv_customCornerRadius="true"
-        app:atv_topLeftCornerRadius="6dp" />
-
-    <com.farhan.widgets.AdvanceEditText
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="30dp"
-        app:aet_borderColor="@color/colorPrimary"
-        app:aet_borderEnable="true"
-        app:aet_borderWidth="2dp"
-        app:aet_bottomRightCornerRadius="30dp"
-        app:aet_cornerRadius="10dp"
-        app:aet_customCornerRadius="true" />
-
-    <com.farhan.widgets.AdvanceFrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        app:afl_borderColor="@color/colorPrimary"
-        app:afl_borderEnable="true"
-        app:afl_borderWidth="2dp"
-        app:afl_bottomLeftCornerRadius="20dp"
-        app:afl_bottomRightCornerRadius="50dp"
-        app:afl_cornerRadius="30dp"
-        app:afl_customCornerRadius="true"
-        app:afl_topLeftCornerRadius="10dp"
-        app:afl_topRightCornerRadius="10dp" />
+    <com.farhan.widgets.RoundImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image_"
+        app:riv_border_color="@color/colorPrimary"
+        app:riv_border_width="2dp" />
 
     <com.farhan.widgets.AdvanceRelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        app:arl_borderColor="@color/colorPrimary"
+        android:id="@+id/rl"
+        android:layout_marginTop="10dp"
         app:arl_borderEnable="true"
-        app:arl_borderWidth="2dp"
-        app:arl_cornerRadius="30dp"
-        app:arl_customCornerRadius="true"
-        app:arl_topLeftCornerRadius="20dp"
-        app:arl_topRightCornerRadius="20dp" />
-
-    <com.farhan.widgets.AdvanceLinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        app:all_borderColor="@color/colorPrimary"
-        app:all_borderEnable="true"
-        app:all_borderWidth="2dp"
-        app:all_bottomLeftCornerRadius="60dp"
-        app:all_bottomRightCornerRadius="50dp"
-        app:all_cornerRadius="30dp"
-        app:all_customCornerRadius="true"
-        app:all_topLeftCornerRadius="100dp"
-        app:all_topRightCornerRadius="10dp" />
+        app:arl_borderWidth="10dp"
+        app:arl_borderColor="@color/colorPrimary"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
 
 </LinearLayout>

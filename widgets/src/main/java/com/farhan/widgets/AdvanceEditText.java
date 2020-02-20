@@ -78,4 +78,21 @@ public class AdvanceEditText extends AppCompatEditText {
         drawable.setColor(colorCode);
         setBackground(drawable);
     }
+
+    public void setBorderColor(int colorCode) {
+        if(borderEnable)
+        {
+            drawable.setStroke((int) borderWidth,colorCode);
+            setBackground(drawable);
+        }
+    }
+
+    public void setBorderColor(int borderWidth,int colorCode) {
+        if(borderEnable)
+        {
+            drawable.setStroke(borderWidth,colorCode);
+            setBackground(drawable);
+        }
+    }
+
 }
